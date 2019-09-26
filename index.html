@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class = "height-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <title>Document</title>
+</head>
+<body class="height-100">
+    <div id = "app" class="height-100">
+    </div>
+   
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+     <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC4DrL91GiU3IDM6GcXD20Q3kqGsI5lndk",
+    authDomain: "mindx-ci1508-28.firebaseapp.com",
+    databaseURL: "https://mindx-ci1508-28.firebaseio.com",
+    projectId: "mindx-ci1508-28",
+    storageBucket: "",
+    messagingSenderId: "509112823711",
+    appId: "1:509112823711:web:02a8bc1e7aff8234"
+  };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    // console.log(firebase.app().name)
+    var db = firebase.firestore();
+</script>
+<script src= "./index.js" type = "module"></script>
+
+</html>
+
